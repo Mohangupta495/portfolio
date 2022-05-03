@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio~/static/css/main.c8d33862.css",
+    "main.js": "/portfolio~/static/js/main.ef96d3fd.js",
+    "static/media/foodies.PNG": "/portfolio~/static/media/foodies.663ebaee645e34e95044.PNG",
+    "static/media/CV.pdf": "/portfolio~/static/media/CV.dcef65dff200b7bde8e4.pdf",
+    "static/media/Login.PNG": "/portfolio~/static/media/Login.a3572a30ebda11d861f0.PNG",
+    "static/media/flipkartCart.PNG": "/portfolio~/static/media/flipkartCart.5efafed3a60bb9d934b8.PNG",
+    "static/media/futureRecylers.PNG": "/portfolio~/static/media/futureRecylers.b304dcc50f08cb9ca8e3.PNG",
+    "static/media/portfolio.jpg": "/portfolio~/static/media/portfolio.f57c322790237d6ec635.jpg",
+    "static/media/avatar12.png": "/portfolio~/static/media/avatar12.b68bdeada83bcb8b8f98.png",
+    "static/media/pc7.jpg": "/portfolio~/static/media/pc7.ee78b1715f389d9b6c98.jpg",
+    "index.html": "/portfolio~/index.html",
+    "main.c8d33862.css.map": "/portfolio~/static/css/main.c8d33862.css.map",
+    "main.ef96d3fd.js.map": "/portfolio~/static/js/main.ef96d3fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d33862.css",
+    "static/js/main.ef96d3fd.js"
+  ]
+}
