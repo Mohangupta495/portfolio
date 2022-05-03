@@ -1,0 +1,114 @@
+#experience {
+    height: max-content;
+}
+
+.container-experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    
+}
+
+.container-experience>div {
+    background: var(--color-bg-variant);
+    padding: 3.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.container-experience>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.container-experience>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary-variant);
+}
+
+.containt-experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+.html-icon {
+    color: orangered;
+}
+
+.react-icon {
+    color: skyblue;
+}
+
+.boot-icon {
+    color: purple;
+    background: black;
+    border-radius: 13px;
+}
+
+.css-icon {
+    color: skyblue;
+}
+
+.java-icon {
+    border-radius: 3px;
+    color: black;
+    background: orangered;
+}
+
+.node-icon {
+    border-radius: 3px;
+    color: black;
+    background: rgb(95, 95, 204);
+    padding: 2px;
+}
+
+.mongo-icon {
+    border-radius: 3px;
+    color: skyblue;
+
+}
+
+.js-icon {
+    border-radius: 3px;
+    color: black;
+    background: orangered;
+}
+
+.star {
+    background: var(--color-bg-variant);
+    color: yellow;
+    margin: 3px;
+}
+
+.logo-name {
+    text-align: center;
+}
+
+.starb {
+    background: var(--color-bg-variant);
+    margin: 3px;
+}
+.experience-details{
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .container-experience {
+        grid-template-columns: 1fr;
+    }
+    #experience {
+        margin-top: 11rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container-experience {
+        grid-template-columns:100vw;
+        margin: 0%!important;
+    }
+}
